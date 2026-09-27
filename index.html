@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nandakishore Ravi | Ph.D. Portfolio</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold text-blue-900">Nandakishore Ravi</h1>
+            <nav class="hidden md:flex space-x-6 text-sm font-medium">
+                <a href="#about" class="hover:text-blue-600">About</a>
+                <a href="#research" class="hover:text-blue-600">Research</a>
+                <a href="#publications" class="hover:text-blue-600">Presentations & Publications</a>
+                <a href="#skills" class="hover:text-blue-600">Skills</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="max-w-5xl mx-auto px-6 py-16 md:py-24 grid md:grid-cols-2 gap-12 items-center">
+        <div>
+            <h2 class="text-4xl font-extrabold tracking-tight text-gray-900 mb-4">Electrical Engineering Ph.D. Candidate</h2>
+            <p class="text-lg text-gray-600 mb-6">
+                Based at the University of Houston under the advisement of Dr. Xiaonan Shan. My research bridges materials science, computational DFT, and laboratory automation to develop advanced transition metal-based catalysts for water splitting and electrolysis.
+            </p>
+            <a href="mailto:your.email@example.com" class="inline-block bg-blue-700 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-800 transition">Contact Me</a>
+        </div>
+        <div class="bg-gray-200 aspect-square rounded-2xl shadow-inner flex items-center justify-center text-gray-400">
+            <!-- Replace this div with an <img> tag when you have a profile picture -->
+            <span class="text-sm">[Insert Profile Image: &lt;img src="profile.jpg" class="rounded-2xl shadow-lg"&gt;]</span>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="bg-white py-16 border-t border-gray-100">
+        <div class="max-w-5xl mx-auto px-6">
+            <h3 class="text-2xl font-bold text-gray-900 mb-8">Research Focus</h3>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Research Area 1 -->
+                <div class="p-6 bg-gray-50 rounded-xl border border-gray-100">
+                    <h4 class="text-xl font-bold text-blue-800 mb-2">Electrocatalysis & Water Splitting</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Investigating phase evolution and reaction mechanisms of transition metal-based catalysts, specifically NiPx and anodized stainless steel mesh electrodes. Optimization is targeted for demanding environments, including alkaline 1M KOH and seawater media.
+                    </p>
+                </div>
+
+                <!-- Research Area 2 -->
+                <div class="p-6 bg-gray-50 rounded-xl border border-gray-100">
+                    <h4 class="text-xl font-bold text-blue-800 mb-2">In-situ & Operando Spectroscopy</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Employing in-situ Raman spectroscopy to analyze catalyst surface evolution (e.g., NiOOH phase shifts) and interfacial water dynamics. Utilizing NV center nanodiamonds via continuous-wave ODMR for quantum sensing of local electromagnetic fields.
+                    </p>
+                </div>
+
+                <!-- Research Area 3 -->
+                <div class="p-6 bg-gray-50 rounded-xl border border-gray-100">
+                    <h4 class="text-xl font-bold text-blue-800 mb-2">Laboratory Automation & Workflows</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Designing high-throughput synthesis and characterization pipelines. This includes integrating Python, Hitbot robotic arms, and custom ESP32/stepper motor hardware for liquid handling, 36-sample electrodeposition arrays, and autonomous screening.
+                    </p>
+                </div>
+
+                <!-- Research Area 4 -->
+                <div class="p-6 bg-gray-50 rounded-xl border border-gray-100">
+                    <h4 class="text-xl font-bold text-blue-800 mb-2">Computational Modeling</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Applying Density Functional Theory (DFT) using Quantum ESPRESSO and COMSOL Multiphysics to calculate Gibbs free energy profiles, model local fields, and correlate experimental spectroscopic data with interfacial double-layer phenomena.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lab Video Embed Section -->
+    <section class="max-w-5xl mx-auto px-6 py-16">
+        <h3 class="text-2xl font-bold text-gray-900 mb-4">Laboratory Automation in Action</h3>
+        <p class="text-gray-600 mb-8">Autonomous catalyst synthesis and screening setup developed alongside my collaborator, Utkarsh.</p>
+        
+        <!-- YOUTUBE EMBED: Replace YOUR_VIDEO_ID below -->
+        <div class="w-full max-w-3xl mx-auto">
+            <iframe 
+              class="w-full aspect-video rounded-lg shadow-lg border border-gray-200" 
+              src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+              title="Autonomous Catalyst Synthesis Setup" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <!-- Publications & Presentations -->
+    <section id="publications" class="bg-blue-900 text-white py-16">
+        <div class="max-w-5xl mx-auto px-6">
+            <h3 class="text-2xl font-bold mb-8">Recent Presentations & Submissions</h3>
+            <div class="space-y-6">
+                <div class="border-l-4 border-blue-400 pl-4">
+                    <h4 class="text-lg font-bold">Manuscript Submitted: Journal of The Electrochemical Society</h4>
+                    <p class="text-blue-200 text-sm mt-1">Research on NiPx and anodized stainless steel catalysts for water splitting. (Submitted May 2026)</p>
+                </div>
+                <div class="border-l-4 border-blue-400 pl-4">
+                    <h4 class="text-lg font-bold">Talk: AIChE Hydrogen Innovations and Technology (HIT) Conference</h4>
+                    <p class="text-blue-200 text-sm mt-1">Presented on accelerated catalyst synthesis and screening utilizing laboratory automation. (2025)</p>
+                </div>
+                <div class="border-l-4 border-blue-400 pl-4">
+                    <h4 class="text-lg font-bold">Exhibitor: Hydrogen Technology Expo North America</h4>
+                    <p class="text-blue-200 text-sm mt-1">Demonstrated our autonomous catalyst synthesis and characterization setup. (2025)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills -->
+    <section id="skills" class="max-w-5xl mx-auto px-6 py-16">
+        <h3 class="text-2xl font-bold text-gray-900 mb-8">Technical Proficiencies</h3>
+        <div class="flex flex-wrap gap-3">
+            <span class="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">Python (PyMCR, Data Analysis)</span>
+            <span class="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">LabVIEW (Hardware Interfacing)</span>
+            <span class="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">COMSOL Multiphysics</span>
+            <span class="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">Quantum ESPRESSO (DFT)</span>
+            <span class="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">Raman Spectroscopy</span>
+            <span class="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">ESP32 & Raspberry Pi</span>
+            <span class="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">Hitbot Robotic Integration</span>
+            <span class="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">Generative AI Agent Workflows</span>
+            <span class="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">3D Modeling (Onshape, Blender)</span>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-8 text-center text-sm">
+        <p>&copy; 2026 Nandakishore Ravi. Expected Ph.D. Completion: Spring 2027.</p>
+    </footer>
+
+</body>
+</html>
