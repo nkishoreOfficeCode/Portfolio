@@ -1,0 +1,242 @@
+[
+  {
+    "group": "automation",
+    "src": "images/automation/automated-system-live-lab.jpg",
+    "thumb": "images/automation/automated-system-live-lab-thumb.jpg",
+    "width": 1600,
+    "height": 1200,
+    "caption": "Automation platform in the laboratory."
+  },
+  {
+    "group": "automation",
+    "src": "images/automation/esri-uh-lab-dsc07993.jpg",
+    "thumb": "images/automation/esri-uh-lab-dsc07993-thumb.jpg",
+    "width": 1600,
+    "height": 1067,
+    "caption": "Electrodeposition sample array and automated handling hardware."
+  },
+  {
+    "group": "automation",
+    "src": "images/automation/electrode-holder.jpg",
+    "thumb": "images/automation/electrode-holder-thumb.jpg",
+    "width": 1200,
+    "height": 1600,
+    "caption": "Custom electrode holder."
+  },
+  {
+    "group": "automation",
+    "src": "images/automation/gripper.jpg",
+    "thumb": "images/automation/gripper-thumb.jpg",
+    "width": 1200,
+    "height": 1600,
+    "caption": "Robotic gripper and sample-handling assembly."
+  },
+  {
+    "group": "automation",
+    "src": "images/automation/heater-system.jpg",
+    "thumb": "images/automation/heater-system-thumb.jpg",
+    "width": 1200,
+    "height": 1600,
+    "caption": "Custom heater and control hardware."
+  },
+  {
+    "group": "electrolyzer",
+    "src": "images/electrolyzer/working-on-electrolyser.jpg",
+    "thumb": "images/electrolyzer/working-on-electrolyser-thumb.jpg",
+    "width": 1600,
+    "height": 1067,
+    "caption": "Hands-on electrolyzer assembly and testing."
+  },
+  {
+    "group": "electrolyzer",
+    "src": "images/electrolyzer/electrolyser-parts-2.jpg",
+    "thumb": "images/electrolyzer/electrolyser-parts-2-thumb.jpg",
+    "width": 1600,
+    "height": 1200,
+    "caption": "Electrolyzer plates and assembly components."
+  },
+  {
+    "group": "electrolyzer",
+    "src": "images/electrolyzer/bipolar-plate-with-gas-channel.jpg",
+    "thumb": "images/electrolyzer/bipolar-plate-with-gas-channel-thumb.jpg",
+    "width": 1200,
+    "height": 1600,
+    "caption": "Bipolar plate with gas-flow channels."
+  },
+  {
+    "group": "electrolyzer",
+    "src": "images/electrolyzer/2-stack.jpg",
+    "thumb": "images/electrolyzer/2-stack-thumb.jpg",
+    "width": 1200,
+    "height": 1600,
+    "caption": "Assembled two-stack electrolyzer prototype."
+  },
+  {
+    "group": "electrolyzer",
+    "src": "images/electrolyzer/resin-printed-electrolyser.jpg",
+    "thumb": "images/electrolyzer/resin-printed-electrolyser-thumb.jpg",
+    "width": 1200,
+    "height": 1600,
+    "caption": "Resin-printed electrolyzer prototype."
+  },
+  {
+    "group": "electrolyzer",
+    "src": "images/electrolyzer/resin-printed-electrolyser-in-action.jpg",
+    "thumb": "images/electrolyzer/resin-printed-electrolyser-in-action-thumb.jpg",
+    "width": 1200,
+    "height": 1600,
+    "caption": "Resin-printed electrolyzer during operation."
+  },
+  {
+    "group": "electrolyzer",
+    "src": "images/electrolyzer/gas-collection-setup.jpg",
+    "thumb": "images/electrolyzer/gas-collection-setup-thumb.jpg",
+    "width": 1200,
+    "height": 1600,
+    "caption": "Gas-collection apparatus for electrolyzer experiments."
+  },
+  {
+    "group": "electrolyzer",
+    "src": "images/electrolyzer/mea-hot-pressed.jpg",
+    "thumb": "images/electrolyzer/mea-hot-pressed-thumb.jpg",
+    "width": 1200,
+    "height": 1600,
+    "caption": "Hot-pressed membrane electrode assembly."
+  },
+  {
+    "group": "ftir",
+    "src": "images/ftir/gas-analysis.jpg",
+    "thumb": "images/ftir/gas-analysis-thumb.jpg",
+    "width": 1200,
+    "height": 1600,
+    "caption": "FTIR gas-analysis cell and sampling connections."
+  },
+  {
+    "group": "h2-expo",
+    "src": "images/h2-expo/expo-after-setup.jpg",
+    "thumb": "images/h2-expo/expo-after-setup-thumb.jpg",
+    "width": 1600,
+    "height": 1200,
+    "caption": "Autonomous catalyst synthesis platform prepared for the Hydrogen Technology Expo."
+  },
+  {
+    "group": "h2-expo",
+    "src": "images/h2-expo/complete-setup.jpg",
+    "thumb": "images/h2-expo/complete-setup-thumb.jpg",
+    "width": 1600,
+    "height": 1200,
+    "caption": "Exhibiting the complete laboratory automation setup."
+  },
+  {
+    "group": "presentations",
+    "src": "images/presentations/giving-presentation.jpg",
+    "thumb": "images/presentations/giving-presentation-thumb.jpg",
+    "width": 1200,
+    "height": 1600,
+    "caption": "Delivering a technical presentation."
+  },
+  {
+    "group": "presentations",
+    "src": "images/presentations/poster-presentation-at-carbon-hub-2025-rice-university.jpg",
+    "thumb": "images/presentations/poster-presentation-at-carbon-hub-2025-rice-university-thumb.jpg",
+    "width": 1600,
+    "height": 1200,
+    "caption": "Poster presentation at Carbon Hub 2025, Rice University."
+  },
+  {
+    "group": "presentations",
+    "src": "images/presentations/presentation-on-automated-catalyst-screening-at-aiche.jpg",
+    "thumb": "images/presentations/presentation-on-automated-catalyst-screening-at-aiche-thumb.jpg",
+    "width": 1600,
+    "height": 900,
+    "caption": "Presenting automated catalyst screening at AIChE."
+  },
+  {
+    "group": "quantum-sensing",
+    "src": "images/quantum-sensing/nano-diamond-for-nanosensing-r-d.jpg",
+    "thumb": "images/quantum-sensing/nano-diamond-for-nanosensing-r-d-thumb.jpg",
+    "width": 1600,
+    "height": 1200,
+    "caption": "Optical setup for NV-center nanodiamond sensing."
+  },
+  {
+    "group": "quantum-sensing",
+    "src": "images/quantum-sensing/nano-diamond-odmr.jpg",
+    "thumb": "images/quantum-sensing/nano-diamond-odmr-thumb.jpg",
+    "width": 1600,
+    "height": 1200,
+    "caption": "Nanodiamond ODMR measurement displayed on the instrument."
+  },
+  {
+    "group": "quantum-sensing",
+    "src": "images/quantum-sensing/prototype-1.jpg",
+    "thumb": "images/quantum-sensing/prototype-1-thumb.jpg",
+    "width": 1200,
+    "height": 1600,
+    "caption": "First sensing-cell prototype."
+  },
+  {
+    "group": "quantum-sensing",
+    "src": "images/quantum-sensing/prototype-2.jpg",
+    "thumb": "images/quantum-sensing/prototype-2-thumb.jpg",
+    "width": 1200,
+    "height": 1600,
+    "caption": "Second sensing-cell prototype."
+  },
+  {
+    "group": "raman",
+    "src": "images/raman/raman-setup.jpg",
+    "thumb": "images/raman/raman-setup-thumb.jpg",
+    "width": 1600,
+    "height": 901,
+    "caption": "Raman microscope and measurement workstation."
+  },
+  {
+    "group": "raman",
+    "src": "images/raman/insitu-setup.jpg",
+    "thumb": "images/raman/insitu-setup-thumb.jpg",
+    "width": 1600,
+    "height": 1200,
+    "caption": "In-situ Raman setup under laser illumination."
+  },
+  {
+    "group": "raman",
+    "src": "images/raman/insitu-cell.jpg",
+    "thumb": "images/raman/insitu-cell-thumb.jpg",
+    "width": 1200,
+    "height": 1600,
+    "caption": "Close-up of the in-situ measurement cell."
+  },
+  {
+    "group": "thin-films",
+    "src": "images/thin-films/custom-thermal-evaporation-setup-1.jpg",
+    "thumb": "images/thin-films/custom-thermal-evaporation-setup-1-thumb.jpg",
+    "width": 1200,
+    "height": 1600,
+    "caption": "Custom thermal evaporation apparatus."
+  },
+  {
+    "group": "thin-films",
+    "src": "images/thin-films/custom-thermal-evaporation-setup-2.jpg",
+    "thumb": "images/thin-films/custom-thermal-evaporation-setup-2-thumb.jpg",
+    "width": 1200,
+    "height": 1600,
+    "caption": "Internal view of the thermal evaporation setup."
+  },
+  {
+    "group": "thin-films",
+    "src": "images/thin-films/gold-film-annealing-to-fro-plasmonically-active-nano-islands.jpg",
+    "thumb": "images/thin-films/gold-film-annealing-to-fro-plasmonically-active-nano-islands-thumb.jpg",
+    "width": 1200,
+    "height": 1600,
+    "caption": "Furnace used for gold-film annealing."
+  },
+  {
+    "group": "thin-films",
+    "src": "images/thin-films/plasmoniacall-active-gold-nano-islands-on-ito.jpg",
+    "thumb": "images/thin-films/plasmoniacall-active-gold-nano-islands-on-ito-thumb.jpg",
+    "width": 1200,
+    "height": 1600,
+    "caption": "Gold-coated ITO samples after processing."
+  }
+]
