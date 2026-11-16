@@ -68,3 +68,42 @@
 #publications .publication-figure img{display:block;width:100%;height:auto}
 #publications .publication-figure figcaption{font-size:12px;padding:10px 14px;color:var(--ink)}
 @media(max-width:700px){#publications .publication-with-image{grid-template-columns:1fr;gap:20px}}
+/* Problem-solving approach page */
+.approach-page .approach-intro{max-width:900px;margin-left:auto;margin-right:auto}
+.approach-page .approach-eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);font-weight:700;margin-bottom:14px}
+.approach-page h2{margin-bottom:24px}
+.approach-page .approach-lead{font-size:clamp(20px,3vw,27px);line-height:1.4;color:var(--blue);margin-bottom:20px}
+.approach-page p{color:var(--muted)}
+.approach-page .approach-example{background:#eaf0f5}
+.approach-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:28px}
+.approach-options article{background:white;padding:28px}
+.approach-options article h4{font-size:23px;margin:14px 0}
+.approach-options article p:last-child{margin-bottom:0}
+.approach-tag{display:inline-block;font-size:12px;font-weight:700;color:var(--blue);background:#e8eef5;padding:6px 12px;border-radius:20px}
+.approach-decisions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px;margin-top:28px}
+.approach-decisions>div{border-top:3px solid #79a7df;padding-top:20px}
+.approach-decisions h4{font-size:18px;line-height:1.4}
+.approach-principle{margin:28px 0;padding:24px;border-left:4px solid var(--blue);background:#e8eef5;color:var(--blue);font-size:21px;line-height:1.5}
+nav a[aria-current="page"]{font-weight:700;text-decoration:underline}
+@media(max-width:700px){.approach-options,.approach-decisions{grid-template-columns:1fr}.approach-options article{padding:22px}}
+
+#approach .approach-intro{max-width:1100px;margin-bottom:32px}#approach .approach-example{padding:32px 0;margin-bottom:32px}#approach .approach-subheading{font-size:24px;margin-bottom:20px}#approach .approach-options h4{font-size:21px}
+
+/* Clickable philosophy preview, with details hidden until selected. */
+#approach .approach-intro{margin-bottom:0}
+#approach .approach-details{border:1px solid var(--line);border-radius:16px;background:white;overflow:hidden}
+#approach .approach-preview{display:block;list-style:none;cursor:pointer}
+#approach .approach-preview::-webkit-details-marker{display:none}
+#approach .approach-preview::marker{content:""}
+#approach .approach-preview:focus-visible{outline-offset:-4px}
+#approach .approach-preview img{display:block;width:100%;height:auto}
+#approach .approach-preview-label{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 24px;color:var(--blue);font-weight:600;background:#f0f5fa}
+#approach .approach-toggle{font-size:26px;line-height:1}
+#approach .approach-hide{display:none}
+#approach .approach-details[open] .approach-hide{display:inline}
+#approach .approach-details[open] .approach-show{display:none}
+#approach .approach-details[open] .approach-toggle{transform:rotate(45deg)}
+#approach .approach-expanded{padding:28px;border-top:1px solid var(--line)}
+#approach .approach-expanded .max-w-5xl{padding-left:0;padding-right:0}
+#approach .approach-expanded .approach-example{padding:24px;border-radius:12px}
+@media(max-width:700px){#approach .approach-preview-label{padding:14px 16px;font-size:14px}#approach .approach-expanded{padding:18px}#approach .approach-expanded .approach-example{padding:16px}}
